@@ -119,6 +119,16 @@ a {
   display: flex;
 }
 
+input[type='tel' i] {
+  padding-block: 1px;
+  padding-inline: 2px;
+}
+.join-main input[type='tel'] {
+  font-size: 16px;
+  padding: 5px;
+  height: 40px;
+  width: 100%;
+}
 .chat-form-container input[type='text'] {
   font-size: 16px;
   padding: 5px;
