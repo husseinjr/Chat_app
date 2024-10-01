@@ -20,7 +20,11 @@ export async function userJoin(
   if (created) {
     return user
   } else {
-    await user.activate()
+    user.id = id;
+    user.name = name;
+    user.room = room;
+    user.online = true
+    await user.save()
     return user
   }
 }

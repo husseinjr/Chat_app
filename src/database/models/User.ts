@@ -62,13 +62,6 @@ User.init(
       defaultValue: true,
       allowNull: false,
     },
-    // password: {
-    //   type: DataTypes.STRING,
-    //   allowNull: false,
-    //   set(value: string) {
-    //     this.setDataValue('password', hash(value))
-    //   },
-    // },
   },
   {
     sequelize: db,
